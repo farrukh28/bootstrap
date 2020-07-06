@@ -1,0 +1,43 @@
+* {
+    font-family: Roboto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.dropdown-item:hover {
+    transition: 0.4s;
+    color: white;
+    background-color: #343A40;
+}
+
+#card {
+    margin-top: 15px;
+}
+
+#card img {
+    height: 100%;
+    object-fit: cover;
+    /* fits image or element in its cover without stretching it. */
+}
+
+#card .card:hover img {
+    transition: 0.4s;
+    opacity: 0.8;
+}
+
+#btp {
+    display: block;
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #343A40;
+    writing-mode: vertical-rl;
+}
+
+#btp:hover {
+    transition: 0.4s;
+    color: #0069D9;
+}
